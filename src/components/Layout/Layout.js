@@ -3,7 +3,7 @@ import classes from './Layout.css'
 
 const layout = (props) =>(
     <div>
-        <div>Toolbar Sidebar BackDraer</div>
+        <div>Burger Builder</div>
         <main className={classes.Content}>
             {props.children}
         </main>
